@@ -1,8 +1,0 @@
-cmd: /home/ibl/htmlsanitize/htmlsanitize
-dir: /home/ibl/htmlsanitize
-target: ibl
-description: Internal HTML Sanitization Service
-after: void
-broken: false
-user: ibl
-group: ibl

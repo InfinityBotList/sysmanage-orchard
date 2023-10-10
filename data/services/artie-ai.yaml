@@ -1,8 +1,0 @@
-cmd: /usr/bin/npm start
-dir: /home/artie/ArtieAI
-target: artie
-description: Artie the AI
-after: void
-broken: false
-user: artie
-group: artie

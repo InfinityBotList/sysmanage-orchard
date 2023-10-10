@@ -1,8 +1,0 @@
-cmd: /home/jobcord/JobCordAPI-v2/jobcord
-dir: /home/jobcord/JobCordAPI-v2
-target: dscjobs
-description: JobCord
-after: void
-broken: false
-user: jobcord
-group: jobcord

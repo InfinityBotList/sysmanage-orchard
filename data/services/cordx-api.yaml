@@ -1,8 +1,0 @@
-cmd: /usr/bin/npm start
-dir: /home/cordx/API
-target: cordx
-description: Cordx api
-after: void
-broken: false
-user: cordx
-group: cordx

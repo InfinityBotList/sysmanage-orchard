@@ -1,8 +1,0 @@
-cmd: /usr/bin/npm start
-dir: /home/toxmod/API
-target: toxmod
-description: ToxMod API
-after: void
-broken: true
-user: toxmod
-group: toxmod

@@ -1,8 +1,0 @@
-cmd: /usr/bin/npm start
-dir: /home/ibl/nightheart
-target: ibl
-description: IBL Widgets Server
-after: popplio-prod
-broken: false
-user: ibl
-group: ibl

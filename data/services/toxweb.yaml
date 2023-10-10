@@ -1,8 +1,0 @@
-cmd: /usr/bin/npm start
-dir: /home/toxmod/Website
-target: toxmod
-description: ToxMod Site
-after: void
-broken: false
-user: toxmod
-group: toxmod

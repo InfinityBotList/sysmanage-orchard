@@ -1,8 +1,0 @@
-cmd: /home/ibl/Popplio/staging/popplio
-dir: /home/ibl/Popplio/staging
-target: ibl
-description: Popplio (Staging)
-after: void
-broken: false
-user: ibl
-group: ibl

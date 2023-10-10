@@ -1,8 +1,0 @@
-cmd: /usr/bin/npm start
-dir: /home/cordx/Production
-target: cordx
-description: CordX Old Site
-after: void
-broken: false
-user: cordx
-group: cordx

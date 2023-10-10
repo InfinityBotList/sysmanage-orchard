@@ -1,8 +1,0 @@
-cmd: /usr/bin/npm start
-dir: /home/chillcord/API
-target: chillcord
-description: ChillCord API
-after: void
-broken: true
-user: chillcord
-group: chillcord

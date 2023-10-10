@@ -1,8 +1,0 @@
-cmd: /usr/bin/npm start
-dir: /home/chillcord/Website
-target: chillcord
-description: ChillCord Website
-after: void
-broken: true
-user: chillcord
-group: chillcord

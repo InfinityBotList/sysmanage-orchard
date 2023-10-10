@@ -1,8 +1,6 @@
 package main
 
 import (
-	"sysmanage-config/plugins/updprod"
-
 	"github.com/infinitybotlist/sysmanage-web/plugins/actions"
 	"github.com/infinitybotlist/sysmanage-web/plugins/authdp"
 	"github.com/infinitybotlist/sysmanage-web/plugins/frontend"
@@ -58,10 +56,6 @@ var meta = types.ServerMeta{
 		{
 			ID:   frontend.ID,
 			Init: frontend.InitPlugin,
-		},
-		{
-			ID:   updprod.ID,
-			Init: updprod.InitPlugin,
 		},
 		{
 			ID:   logger.ID,

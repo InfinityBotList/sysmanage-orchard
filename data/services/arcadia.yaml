@@ -1,8 +1,0 @@
-cmd: /home/ibl/arcadia/bot
-dir: /home/ibl/arcadia
-target: ibl
-description: Arcadia [v4]
-after: void
-broken: false
-user: ibl
-group: ibl

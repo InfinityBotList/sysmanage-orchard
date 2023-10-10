@@ -1,8 +1,0 @@
-cmd: /usr/bin/npm start
-dir: /home/toxmod/BetaSite
-target: toxmod
-description: ToxMod Beta Site
-after: void
-broken: false
-user: toxmod
-group: toxmod

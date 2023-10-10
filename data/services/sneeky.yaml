@@ -1,8 +1,0 @@
-cmd: /usr/bin/npm start
-dir: /home/ibl/Sneeky
-target: ibl
-description: Onboarding
-after: ibl-maint
-broken: false
-user: ibl
-group: ibl

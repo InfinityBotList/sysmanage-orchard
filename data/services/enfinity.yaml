@@ -1,8 +1,0 @@
-cmd: /usr/bin/npm start
-dir: /home/ibl/enfinity
-target: ibl
-description: Infinity Support Bot
-after: void
-broken: false
-user: ibl
-group: ibl

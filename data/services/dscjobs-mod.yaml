@@ -1,8 +1,0 @@
-cmd: /usr/bin/npm start
-dir: /home/jobcord/DscJobsMod
-target: dscjobs
-description: DscJobs Moderation Bot
-after: void
-broken: false
-user: jobcord
-group: jobcord

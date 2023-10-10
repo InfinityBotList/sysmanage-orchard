@@ -1,6 +1,0 @@
-cmd: "/usr/bin/npm start"
-dir: "/root/ReviewBots/API"
-target: reviewbots
-after: void
-description: Review Bots API
-broken: true # Does not startup

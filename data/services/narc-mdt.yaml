@@ -1,8 +1,0 @@
-cmd: /usr/bin/npm start
-dir: /home/narc/CAD-MDT
-target: narc
-description: Narc Computer Aided Dispatch
-after: void
-broken: false
-user: narc
-group: narc
