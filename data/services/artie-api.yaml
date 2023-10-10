@@ -1,0 +1,8 @@
+cmd: /usr/bin/npm start
+dir: /home/artie/ArtieAPI
+target: artie
+description: Artie API
+after: void
+broken: false
+user: artie
+group: artie

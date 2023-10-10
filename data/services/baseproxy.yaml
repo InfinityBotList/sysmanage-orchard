@@ -1,0 +1,8 @@
+cmd: /usr/bin/ibl proxy
+dir: /home/dummy
+target: core
+description: Core Discord Base Proxy
+after: void
+broken: false
+user: dummy
+group: dummy

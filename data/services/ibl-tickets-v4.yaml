@@ -1,0 +1,8 @@
+cmd: /home/ibl/ibl-tickets/ibl-tickets
+dir: /home/ibl/ibl-tickets
+target: ibl
+description: IBL Tickets Bot [v4]
+after: void
+broken: false
+user: ibl
+group: ibl

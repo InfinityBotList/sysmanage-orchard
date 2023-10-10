@@ -1,0 +1,47 @@
+servers:
+    - id: prod
+      names:
+        - '@root'
+      comment: Production website
+      broken: false
+      locations:
+        - path: /
+          proxy: http://127.0.0.1:4220
+          opts: []
+    - id: dev
+      names:
+        - dev
+      comment: Development site
+      broken: false
+      locations:
+        - path: /
+          proxy: http://127.0.0.1:4942
+          opts: []
+    - id: api
+      names:
+        - api
+      comment: Cordx api
+      broken: false
+      locations:
+        - path: /
+          proxy: http://127.0.0.1:4985
+          opts: []
+    - id: beta
+      names:
+        - beta
+      comment: CordX Beta in Nextjs
+      broken: false
+      locations:
+        - path: /
+          proxy: http://127.0.0.1:4942
+          opts: []
+    - id: pastes
+      names:
+        - pastes
+      comment: CordX paste bin knock off
+      broken: false
+      locations:
+        - path: /
+          proxy: http://127.0.0.1:7777
+          opts: []
+real_name: ""

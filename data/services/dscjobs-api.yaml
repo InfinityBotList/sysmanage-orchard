@@ -1,0 +1,8 @@
+cmd: /usr/bin/npm start
+dir: /home/jobcord/DscJobsAPI
+target: dscjobs
+description: DscJobs API
+after: void
+broken: false
+user: jobcord
+group: jobcord

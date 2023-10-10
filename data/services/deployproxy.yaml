@@ -1,0 +1,8 @@
+cmd: /home/core/deployproxy/deployproxy
+dir: /home/core/deployproxy
+target: core
+description: DeployProxy
+after: postgres
+broken: false
+user: "core"
+group: "core"

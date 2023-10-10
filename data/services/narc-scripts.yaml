@@ -1,0 +1,8 @@
+cmd: /usr/bin/npm start
+dir: /home/narc/API
+target: narc
+description: NARC Scripts Site
+after: void
+broken: false
+user: narc
+group: narc

@@ -1,0 +1,8 @@
+cmd: /home/skynet/skynet/skynet
+dir: /home/skynet/skynet
+target: skynet
+description: Skynet
+after: void
+broken: false
+user: skynet
+group: skynet

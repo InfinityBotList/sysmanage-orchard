@@ -1,0 +1,11 @@
+servers:
+    - id: vivum
+      names:
+        - vivum
+      comment: VIVUM
+      broken: false
+      locations:
+        - path: /
+          proxy: http://127.0.0.1:5173
+          opts: []
+real_name: ""

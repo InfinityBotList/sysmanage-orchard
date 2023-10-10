@@ -1,0 +1,8 @@
+cmd: /usr/bin/python3 main.py
+dir: /root/sunbeam
+target: rootpersonal
+description: Vivum 2023 Sunbeam Planning Bot
+after: void
+broken: true
+user: ""
+group: ""

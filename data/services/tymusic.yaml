@@ -1,0 +1,8 @@
+cmd: /usr/bin/yarn start
+dir: /home/narc/TYMusic
+target: narc
+description: Music portfolio
+after: ibl-maint
+broken: false
+user: narc
+group: narc

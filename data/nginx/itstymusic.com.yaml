@@ -1,0 +1,11 @@
+servers:
+    - id: main
+      names:
+        - '@root'
+      comment: Music portfolio
+      broken: false
+      locations:
+        - path: /
+          proxy: http://127.0.0.1:9940
+          opts: []
+real_name: ""

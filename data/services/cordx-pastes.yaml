@@ -1,0 +1,8 @@
+cmd: /usr/bin/npm start
+dir: /home/cordx/Pastes
+target: cordx
+description: Cordx paste bin
+after: void
+broken: false
+user: cordx
+group: cordx

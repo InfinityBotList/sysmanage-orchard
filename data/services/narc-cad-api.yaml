@@ -1,0 +1,8 @@
+cmd: /home/narc/CAD-API/cad-api
+dir: /home/narc/CAD-API
+target: narc
+description: NARC CAD API
+after: void
+broken: false
+user: narc
+group: narc

@@ -1,0 +1,18 @@
+[Unit]
+Description=Mount orchard@school with sshfs
+After=network-online.target
+After=zfsmongo.service
+After=tailscaled.service
+Wants=network-online.target
+StartLimitIntervalSec=300
+StartLimitBurst=10
+
+[Install]
+WantedBy=default.target
+
+[Service]
+Type=exec
+ExecStart=/usr/bin/sshfs -f orchard:/scdn/public /silverpelt/cdn/orchard/schoolcdn -o rw,allow_other,idmap=user,uid=1001,gid=1001,ServerAliveInterval=10,ServerAliveCountMax=1,_netdev
+ExecStop=/usr/bin/umount /silverpelt/cdn/orchard/schoolcdn
+Restart=on-failure
+RestartSec=20

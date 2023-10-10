@@ -1,0 +1,8 @@
+cmd: /usr/bin/npm start
+dir: /root/MigiziBot
+target: migizi
+description: Migizi Bot
+after: void
+broken: true
+user: ""
+group: ""
