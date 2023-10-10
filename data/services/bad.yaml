@@ -1,0 +1,8 @@
+cmd: /usr/bin/true
+dir: /home/core
+target: ibl
+description: '....dummy'
+after: void
+broken: true
+user: core
+group: core
