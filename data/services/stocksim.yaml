@@ -1,4 +1,4 @@
-cmd: /home/xavage/sim/bin/python3.11 manage.py runserver
+cmd: /home/xavage/sim/bin/gunicorn stocksim.wsgi
 dir: /home/xavage/StockSimulator
 target: rootpersonal
 description: StockSim
