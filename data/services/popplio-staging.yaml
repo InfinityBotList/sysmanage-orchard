@@ -1,5 +1,5 @@
 cmd: /home/ibl/Popplio/staging/popplio
-dir: /home/ibl/Popplio
+dir: /home/ibl/Popplio/staging
 target: ibl
 description: Staging API for Popplio
 after: void
