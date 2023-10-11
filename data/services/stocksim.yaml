@@ -1,0 +1,8 @@
+cmd: /home/xavage/sim/bin/python3.11 manage.py runserver
+dir: /home/xavage/StockSimulator
+target: rootpersonal
+description: StockSim
+after: void
+broken: false
+user: xavage
+group: xavage
