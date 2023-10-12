@@ -8,4 +8,13 @@ servers:
         - path: /
           proxy: http://127.0.0.1:8000
           opts: []
+    - id: stocksim2-api
+      names:
+        - stocksim2-api
+      comment: stocksim2 api
+      broken: false
+      locations:
+        - path: /
+          proxy: http://localhost:1929
+          opts: []
 real_name: ""
