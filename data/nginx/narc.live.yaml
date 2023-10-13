@@ -17,4 +17,13 @@ servers:
         - path: /
           proxy: http://localhost:1929
           opts: []
+    - id: stocksim2-admin
+      names:
+        - stocksim2-admin
+      comment: admin
+      broken: false
+      locations:
+        - path: /
+          proxy: http://127.0.0.1:1922
+          opts: []
 real_name: ""
