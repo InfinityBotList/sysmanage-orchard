@@ -1,4 +1,4 @@
-cmd: /home/xavage/backend/cmd/piccolo-admin/run.sh
+cmd: /home/xavage/.local/bin/uvicorn admin.app:app --port 1922
 dir: /home/xavage/backend/cmd/piccolo-admin
 target: rootpersonal
 description: admin panel
