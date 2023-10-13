@@ -11,6 +11,7 @@ servers:
     - id: stocksim2-api
       names:
         - stocksim2-api
+        - stocksim-api
       comment: stocksim2 api
       broken: false
       locations:
