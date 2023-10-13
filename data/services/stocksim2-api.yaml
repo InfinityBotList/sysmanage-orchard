@@ -1,5 +1,5 @@
-cmd: /home/xavage/xavage2/backend/xavagebb
-dir: /home/xavage/xavage2/backend
+cmd: /home/xavage/backend/xavagebb
+dir: /home/xavage/backend
 target: rootpersonal
 description: xavage
 after: void
