@@ -1,0 +1,8 @@
+cmd: /home/xavage/backend/cmd/piccolo-admin/run.sh
+dir: /home/xavage/backend/cmd/piccolo-admin
+target: rootpersonal
+description: admin panel
+after: void
+broken: false
+user: xavage
+group: xavage
