@@ -1,0 +1,12 @@
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/extbackup xavage /home/autobackup/xavage-pub.pem 
+User=autobackup
+Group=autobackup
+WorkingDirectory=/home/autobackup
+PrivateTmp=true
+
+[Unit]
+Description="XV Backup script"
+After=postgresql.service
+Wants=network-online.target

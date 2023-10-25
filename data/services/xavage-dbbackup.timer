@@ -1,0 +1,13 @@
+[Unit]
+Description=Xavage DB Backup Timer
+
+[Timer]
+OnBootSec=15min
+Persistent=true
+# OnUnitActiveSec=1h -- If monotonic is desired, maybe it is(?)
+OnCalendar=hourly
+WakeSystem=true
+RandomizeDelaySec=20m
+
+[Install]
+WantedBy=timers.target
