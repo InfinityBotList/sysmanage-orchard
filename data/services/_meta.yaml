@@ -1,16 +1,6 @@
 targets:
     - name: ibl
       description: Infinity Bot List
-    - name: github
-      description: GitHub Bots
-    - name: diswidgets
-      description: DisWidgets
-    - name: artie
-      description: Artie
-    - name: toxmod
-      description: ToxMods
-    - name: reviewbots
-      description: Review Bots
     - name: rootpersonal
       description: Rootspring's personal stuff (vivum bots)
     - name: core
