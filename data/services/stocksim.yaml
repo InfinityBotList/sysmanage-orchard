@@ -1,8 +1,0 @@
-cmd: /home/xavage/sim/bin/gunicorn stocksim.wsgi
-dir: /home/xavage/StockSimulator
-target: rootpersonal
-description: StockSim
-after: void
-broken: false
-user: xavage
-group: xavage
