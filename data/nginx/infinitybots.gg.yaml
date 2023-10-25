@@ -1,1 +1,11 @@
 servers:
+    - id: spider-canary
+      names:
+        - spider-canary
+      comment: Spider Canary Instance
+      broken: false
+      locations:
+        - path: /
+          proxy: http://localhost:8083
+          opts: []
+real_name: ""
