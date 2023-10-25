@@ -1,13 +1,4 @@
 servers:
-    - id: stocksim
-      names:
-        - stocksim
-      comment: StockSim
-      broken: false
-      locations:
-        - path: /
-          proxy: http://127.0.0.1:8000
-          opts: []
     - id: stocksim2-api
       names:
         - stocksim2-api
